@@ -5,13 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Oursement votre</title>
+  <title>Category: SSH - Oursement votre</title>
   <meta name="author" content="Guillaume Faure">
 
   
-  <meta name="description" content="Gitolite is a really good project. What I like most is that it is
-simple to install and you can wrap your head around it. I got
-interested a lot in &hellip;">
+  <meta name="description" content="Category: SSH">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +18,7 @@ interested a lot in &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://grosours.github.io">
+  <link rel="canonical" href="http://grosours.github.ioblog/categories/ssh">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Oursement votre" type="application/atom+xml">
@@ -75,80 +73,40 @@ interested a lot in &hellip;">
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article role="article">
   
-  
-  
-    <article>
-      
   <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/06/04/a-story-of-gitolite-and-ssh-gateway/">A Story of Gitolite &amp; SSH Gateway</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-06-04T02:07:00+02:00" pubdate data-updated="true">Jun 4<span>th</span>, 2013</time>
-        
-         | <a href="/blog/2013/06/04/a-story-of-gitolite-and-ssh-gateway/#disqus_thread">Comments</a>
-        
-      </p>
+    <h1 class="entry-title">Category: SSH</h1>
     
   </header>
+  
+  <div id="blog-archives" class="category">
 
 
-  <div class="entry-content"><p>Gitolite is a really good project. What I like most is that it is
-simple to install and you can wrap your head around it. I got
-interested a lot in other projects like GitLab our Gitorious. But they
-are a pain to install and configure.</p>
 
-<p>My setup for gitolite was quite redimentary unlil now. I had a Debian
-virtual machine hosting gitolite and the repository. Everyone that had
-to access this machine could do it on the private network or a VPN
-connection. Everything worked like a charm&hellip;</p>
+  
+  <h2>2013</h2>
 
-<p>Until I had to make the repositories available to the outside world&hellip;
-But git was not the only service that required the SSH port on my
-firewall. I had to make it somehow play nice with other friends. After
-some searching I diceided, thanks to the nicely done article
-<a href="http://tumblr.spantz.org/post/211936636/configuring-an-ssh-gateway">Configuring an SSH Gateway</a>,
-that I had to give access to gitolite through an SSH Gateway. The
-cornerstone of method is the use of SSH keys and the
-<code>authorized_keys</code>&rsquo;s <code>command</code> options. If you do not want to read the
-article, the idea behind the SSH Gateway is to identify an SSH
-&ldquo;service&rdquo; as a user account on the gateway, the real user beeing
-identified thanks to its SSH key. The gateway then connects to the
-right machine and the right user (which it know though its key).
-Nicely simple once you understand the trick. Reminds you of something
-? Yes, yes, the exact same trick that allow gitolite to make its magic
-operate. Gitolite identify the real user though its SSH key and then
-&ldquo;just&rdquo; check some permisions to check if she have the right to acccess
-this repo. I should have though of it before hearing of the SSH
-Gateway.</p>
+<article>
+  
+<h1><a href="/blog/2013/06/04/a-story-of-gitolite-and-ssh-gateway/">A story of Gitolite &amp; SSH Gateway</a></h1>
+<time datetime="2013-06-04T02:07:00+02:00" pubdate><span class='month'>Jun</span> <span class='day'>04</span> <span class='year'>2013</span></time>
+
+<footer>
+  <span class="categories">posted in <a class='category' href='/blog/categories/gitolite/'>Gitolite</a>, <a class='category' href='/blog/categories/ssh/'>SSH</a></span>
+</footer>
+
+
+</article>
+
 </div>
-  
-  
 
-
-    </article>
   
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+</article>
+
 </div>
+
 <aside class="sidebar">
   
     <section>
@@ -168,6 +126,7 @@ Gateway.</p>
 
   
 </aside>
+
 
     </div>
   </div>
